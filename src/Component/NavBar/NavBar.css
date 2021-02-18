@@ -1,0 +1,31 @@
+.nav {
+  margin-top: 20px;
+  background-color: gray;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    height: 160px;
+    display: flex;
+    align-items: center;
+  }
+
+  ul {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140px;
+    /* border: 2px solid red; */
+  }
+}

@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: black;
+  height: 300px;
+  color: white;
+}
+
+.header-text {
+  margin-left: 30px;
+}
