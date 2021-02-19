@@ -47,7 +47,21 @@ const Main = () => {
             </p>
           </div>
         </div>
-        <div className="row4 row">row 4</div>
+        <div className="row4 row">
+          <div className="row4-left">
+            <h2>Resources</h2>
+            <p>
+              More links to articles, tutorials and conference presentations
+              that will help you learn CSS Flexbox.
+            </p>
+          </div>
+          <div className="row4-right">
+            <h2>CSS Layout News</h2>
+            <p>
+              Sign up for a weekly email full of CSS Layout links and resources.
+            </p>
+          </div>
+        </div>
         <div className="row5 row">row 5</div>
         <div className="row6 row">row 6</div>
       </div>
